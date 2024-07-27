@@ -1,0 +1,37 @@
+@media screen and (max-width:800px) {
+    .navbar-main{
+        flex-direction:column;
+        align-items: center;
+    }
+    .navbar-main >div{
+        margin-top: 20px;
+    }
+    .fifty-off{
+        left: 20%;
+    }
+   
+       
+    
+    
+}
+@media screen and (max-width:576px) {
+    .menu-container{
+        display: none;
+        flex-direction:column;
+    }
+    .hamburger{
+        display: block;
+        margin-bottom: 15px;
+    }
+    .navbar-main{
+        flex-direction:row;
+        
+    }
+    .banner-content{
+        flex-direction: column;
+        }
+        .banner-child{
+            width: 100%;
+        }
+    
+}

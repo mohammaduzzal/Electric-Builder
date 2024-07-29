@@ -67,6 +67,8 @@
   padding: 10px;
   border-radius: 10px;
   background-color: rgb(242, 242, 242);
+  width: 1000px;
+  margin: 0 auto;
 
 
 }
@@ -246,3 +248,48 @@
 
 
 /*      <!-- qna section ends --> */
+
+/* footer css starts */
+.footer{
+  margin-top: 50px;
+  background-color: rgb(71, 85, 105);
+
+ 
+
+}
+.footer-content{
+  max-width: 1000px;
+  min-height: 250px;
+  border: 1px solid tomato;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+ 
+}
+.content-child{
+  border: 1px solid green;
+  width: 100%;
+}
+.btn-footer{
+  background-color:orange;
+  color: white;
+  padding: 8px ;
+  border: none;
+  border-radius: 5px;
+  margin-top: 45px;
+  
+
+ 
+}
+footer div input{
+  padding: 5px;
+ 
+}
+.input-dad{
+  display: flex;
+ align-items: center;
+ gap: none;
+  
+}
+/* footer css ends */
